@@ -10,4 +10,9 @@ public class HelloController {
     public String getHello(){
         return "Hello world@@@";
     }
+
+    @GetMapping("/hello/inside")
+    public String insideHello(){
+        return "Inside Hello";
+    }
 }
